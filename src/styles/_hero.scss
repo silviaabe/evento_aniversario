@@ -3,7 +3,7 @@
 .hero {
   padding-top: 64px;
   padding-bottom: 100px;
-  background-image: url(../images/fundo.png);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/026/954/439/non_2x/multi-colored-balloons-wallpaper-festive-background-celebrating-for-kids-for-banner-postcard-illustration-created-with-generative-ai-tools-photo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -26,16 +26,21 @@
   &__text {
     margin-top: 64px;
     margin-bottom: 64px;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 56px;
     font-weight: 800;
     text-align: center;
   }
 
+  &__text b {
+    font-size: 60px;
+    color: rgb(212, 62, 212);
+  }
+
   &__logo {
     display: block;
     margin: 0 auto;
-    height: 80px;
+    height: 150px;
   }
 
   @media (max-width: 640px) {
